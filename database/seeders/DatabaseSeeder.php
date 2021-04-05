@@ -17,10 +17,10 @@ class DatabaseSeeder extends Seeder
      */
     public function run()
     {
-        $this->call(RoleSeeder::class);
-        Status::factory(1)->create();
+        // $this->call(RoleSeeder::class);
+        // Status::factory(1)->create();
         User::factory(1)->create();
-        Grade::factory(1)->create();
-        Group::factory(1)->create();
+        // Grade::factory(1)->create();
+        // Group::factory(1)->create();
     }
 }

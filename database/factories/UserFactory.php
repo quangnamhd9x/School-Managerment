@@ -29,7 +29,7 @@ class UserFactory extends Factory
             'username' => 'admin',
             'password' => Hash::make("123"), // password
             'role_id' => RoleConstants::ROLE_ADMIN,
-            'status_id' => 1,
+            'status' => 1,
             'email' => 'quangnamhd9x@gmail.com',
             'phone' => '0966625608',
         ];
